@@ -67,7 +67,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    allContentfulPost(slug: { eq: $slug }) {
+    contentfulPost(slug: { eq: $slug }) {
       title
       subtitle
       author

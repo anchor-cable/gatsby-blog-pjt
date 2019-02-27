@@ -10,10 +10,8 @@ exports.createPages = ({ graphql, actions }) => {
         allContentfulPost {
           edges {
             node {
-              node {
-                slug
-                title
-              }
+              slug
+              title
             }
           }
         }
