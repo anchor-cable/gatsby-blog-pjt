@@ -21,6 +21,11 @@ class BlogPostContentfulTemplate extends React.Component {
             __html: post.content.childContentfulRichText.html,
           }}
         />
+        <div>
+          今日の健康度:{post.health}
+          <br />
+          理由:{post.healthReason}
+        </div>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -76,6 +81,8 @@ export const pageQuery = graphql`
           html
         }
       }
+      health
+      healthReason
     }
   }
 `
