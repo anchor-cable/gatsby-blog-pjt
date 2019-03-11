@@ -6,9 +6,9 @@ if (process.env.NODE_ENV != "production") {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Contentful Blog`,
+    title: `Dassimen.log`,
     author: `Dassimen`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `脱脂綿活動ログ。勉強したことの最速アウトプットを目指します。`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `anchor_cable`,
@@ -63,7 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Dassimen.log`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
